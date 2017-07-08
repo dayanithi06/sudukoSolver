@@ -76,6 +76,7 @@ public class Suduko {
                 }
             }
         }
+        //check for matrix
         if (checkForMatrix(board)) {
             return true;
         } else {
